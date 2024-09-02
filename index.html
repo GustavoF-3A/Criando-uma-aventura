@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sem volta pra casa!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
 </head>
 <body>
     <main>
-        <div class="passo" id="passo-0">
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
             <p> Ceerto dia você e seus amigos decidiram se aventurar e investigar uma casa abandonada, dentro dessa casa voçes encontraram um jogo, e esse jogo acabou teletransportando voçês para dentro dele, agora voçês precisam se aventurar, enfretando desafios e completando missões para voltar pra casa. Boa sorte, voçês vão previsar!</p>
             <button class="btn-proximo" data-proximo="1"> Se aventurar na mata</button>
             <button class="btn-proximo" data-proximo="2">Procurar um lugar para se acomodar</button>
@@ -15,11 +20,14 @@
         <div class="passo" id="passo-1">
             <p>Vocês adentram nas matas e logo afrente encontram um animal misterioso se esgueirando pelos arbustos</p>
             <button class="btn-proximo" data-proximo="3">Jogar algo nele</button>
-            <button class="btn-proximo" data-proximo="4">Tentar passar silenciosamente</button>
+            <button class="btn-proximo" data-proximo="4">Tentar passar silenciosamente
+            </button>
+        <div class="passo" id="passo-2">
+            <p>Após seguir uma pequena trilha voçês encontram uma cabana </p>
+            <button class="btn-proximo" data-proximo="5">entrar na cabana </button>
+            <button class="btn-proximo" data-proximo="6">voltar para a trilha</button>
         </div>
     </main>
-
-
-
+    <script src="script.js"></script>
 </body>
 </html>
